@@ -1,0 +1,5 @@
+name: MC2ntfy
+main: fx7.ntfy.MC2NtfyPlugin
+version: 0.1
+api-version: 1.13
+commands:
