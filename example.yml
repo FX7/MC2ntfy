@@ -2,7 +2,7 @@ mainMsgTmpl:
   ==: NtfyMessageTemplate
   message_template: Message from your minecraft server.
   host: https://ntfy.sh
-  topic: mcsrv-paper
+  topic: mineraft
 
 PlayerJoinEvent:
   ==: NtfyMessageTemplate
