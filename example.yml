@@ -1,0 +1,21 @@
+mainMsgTmpl:
+  ==: NtfyMessageTemplate
+  message_template: Message from your minecraft server.
+  host: https://ntfy.sh
+  topic: mcsrv-paper
+
+PlayerJoinEvent:
+  ==: NtfyMessageTemplate
+  message_template: '''[PLAYER_NAME]'' joined server.'
+
+PlayerQuitEvent:
+  ==: NtfyMessageTemplate
+  message_template: '''[PLAYER_NAME]'' left server.'
+
+AsyncPlayerChatEvent:
+  ==: NtfyMessageTemplate
+  message_template: '[PLAYER_NAME] : [EVENT_MESSAGE]'
+
+PlayerDeathEvent:
+  ==: NtfyMessageTemplate
+  message_template: '''[PLAYER_NAME]'' died; reason : [EVENT_MESSAGE]'
