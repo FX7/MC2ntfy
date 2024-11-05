@@ -2,6 +2,8 @@
 
 Minecraft PLugin for pushing some Mineraft Events to a ntfy Server.
 
+**TL:DR** Start a server with the plugin activated. Config will be generated. Stop server, modify config for your needs, restart server.
+
 For now the Plugin is listening for 4 Minecraft Events:
 
 * PlayerJoinEvent
